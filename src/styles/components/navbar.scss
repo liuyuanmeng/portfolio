@@ -1,0 +1,33 @@
+.navbar{
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+  background-color: #3f4850;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+
+  
+
+  .nav-link{
+    color: #000;
+    font-family: $font-para;
+    display: inline-block;
+    cursor: pointer;
+
+
+
+   
+  }
+  .hash{
+    color: #000;
+    font-family: $font-para;
+    margin: 6px;
+    text-decoration: none; 
+    margin-right: 100px;
+   text-transform: uppercase;
+   list-style-type: none;
+    
+    
+
+  }
+}

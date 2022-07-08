@@ -1,0 +1,198 @@
+$bg: white;
+$text-color: #d7b94c;
+$caret-color: white;
+$text-length: 16;
+$animation-time: 4s;
+// Center content
+
+// Basic style
+
+// Typing style
+.typing {
+  position: relative;
+	&::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: $caret-color;
+    background: $bg;
+    animation: typing $animation-time steps($text-length) forwards,
+      caret 1s infinite;
+  }
+}
+// Animation
+@keyframes typing {
+	to { width: 0 }
+}
+@keyframes caret {
+	50% { color: transparent }
+}
+
+
+
+.image {
+
+  
+  height: auto;
+  width:300px;
+  height:200px;
+  
+ 
+}
+.box{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+.h2{
+  font-family: 'Charis SIL', serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+ 
+}
+
+
+
+
+.profile{
+  max-width: 20%;
+  margin: 10%;
+  float: left;
+  
+}
+.second{
+  height: 100vh;
+  padding-top: 30px;
+ 
+}
+.projects{
+  height: 100vh;
+  padding-top: 30px;
+  
+ 
+}
+.skills{
+  height: 100vh;
+  
+}
+.top{
+  padding-top: 30px;
+}
+.Contact{
+  height: 50vh;
+  padding-top: 20px;
+
+}
+
+
+.second h1{
+  float: right;
+  margin-top: 10%;
+  margin-right: 20%;
+  font-size: 4em;
+}
+.second p{
+  clear: right;
+  margin: 10em;
+}
+
+
+.container {
+  position: relative;
+  
+   max-width: 100%;
+ 
+}
+
+
+
+
+.center {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
+.projects-container{
+   position: relative;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #3f4850;
+  padding: 10px;
+
+
+  
+
+}
+.container-img{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  
+
+}
+
+
+
+.icons-container{
+  
+ 
+ 
+
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto ;
+  background-color: #3f4850;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+.icon-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+
+}
+.align-content-center{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background-color: #555555;
+  font-size: 20px;
+  border-radius: 12px;
+  margin-right: 5px;
+
+}
+p.big {
+  line-height: 2.8;
+}
+.page-container{
+  max-height: fit-content;
+  margin-bottom: 0px;
+}
+.icons{
+  margin-left: 10px;
+}
+.coantctspace{
+  margin-left: 100px;
+ 
+}
+
+
+
