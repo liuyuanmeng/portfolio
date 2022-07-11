@@ -1,14 +1,16 @@
-// @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Source+Serif+Pro&display=swap');
-*{
-  font-family: 'Charis SIL', serif;
-  
 
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Charis+SIL:ital,wght@1,700&family=Gulzar&family=Nunito&family=Source+Serif+Pro&family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+*{
+  // font-family: 'Arima', cursive;
+ font-family: 'Montserrat', sans-serif;
+
+ 
 }
 
 @import './variables.scss';
 @import './components/home.scss';
 @import './components/navbar.scss';
 @import './base.scss';
-@import './components/yuanmengcv.scss'
+
 
 

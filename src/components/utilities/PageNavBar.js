@@ -27,9 +27,10 @@ const PageNavbar = () => {
           <NavLink className='hash' as={Link} to="#skills" smooth>Skills</NavLink>
         
           <NavLink className='hash' as={Link} to="#experience"  smooth>Experience</NavLink>
+          <NavLink className='hash' as={Link} to="#interests"  smooth>Interests</NavLink>
           <NavLink className='hash' as={Link} to="#contact"  smooth>Contact</NavLink>
          
-          {/* <Nav.Link as={Link} to="/yuanmengcv">CV</Nav.Link> */}
+       
 
 
 
