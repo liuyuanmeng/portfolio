@@ -141,7 +141,7 @@ const Home = () => {
           <img alt="project-img" src={project2} />
           <div className='project-body odd'>
             <h2>Fruity 4 You</h2>
-            <h3>36 hours | Group Programming</h3>
+            <h3>36 hours | Group Project</h3>
             <div>
               <SiReact />
               <IoLogoJavascript />
@@ -152,8 +152,8 @@ const Home = () => {
             Working in a 3-person group one-day hackathon project. We built an app that consumes a public API (fruityvice), allowing users to search
               all different kinds of fruits by either name or family. Users can also calculate nutrition after choosing three of their favourite fruits.
             </p>
-            <div>
-              <a href="https://fruity-4-you.netlify.app/" target="_blank" rel="noreferrer">
+            <div >
+              <a className='mt-5' href="https://fruity-4-you.netlify.app/" target="_blank" rel="noreferrer">
                 <FaExternalLinkSquareAlt />
               </a>
               <a href="https://github.com/liuyuanmeng/Project2-FruitsHackathon" target="_blank" rel="noreferrer">
@@ -221,10 +221,7 @@ const Home = () => {
             </div>
             <div className='icon-item'>
 
-              <p>TypeScript</p>
-              <SiTypescript style={{ fontSize: '50px' }} />
-            </div>
-            <div className='icon-item'>
+          
 
               <p>React</p>
               <FaReact style={{ fontSize: '50px' }} />

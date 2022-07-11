@@ -164,14 +164,16 @@ $animation-time: 4s;
   margin-bottom: 100px;
 
   img{
-    max-width: 400px;
-    // border: 1px solid black;
+    max-width: 450px;
+    max-height: 550px;
+    
   }
 
   .project-body{
-    width: 50%;
+    width: 60%;
     margin: 0 30px 0 30px;
     position: relative;
+    
 
     h3{
       font-size: 1.2em;
@@ -179,6 +181,7 @@ $animation-time: 4s;
 
     a{
       color: black;
+      
     }
 
   }
