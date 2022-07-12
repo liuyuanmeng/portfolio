@@ -162,6 +162,11 @@ $animation-time: 4s;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 100px;
+  
+  button{
+    background-color: #c8d8e4
+
+  }
 
   img{
     max-width: 450px;
@@ -181,6 +186,7 @@ $animation-time: 4s;
 
     a{
       color: black;
+    
       
     }
 
@@ -189,6 +195,7 @@ $animation-time: 4s;
   .even{
     text-align: right;
   }
+
 
   .even div:last-of-type{
     right: 0px;
@@ -199,24 +206,42 @@ $animation-time: 4s;
     font-size: 1.2em;
     margin-bottom: 10px;
   }
+  
 
   .even div{
     svg{
       margin-left: 10px;
+      
     }
+    
+    
+    
+   
   }
 
   .odd div{
     svg{
       margin-right: 10px;
+     
     }
+   
+    
   }
+  .mt-5
+  
 
   .project-body div:last-of-type{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     margin: 0;
     font-size: 1.5em;
+  }
+  .iconsdiv{
+    padding: 25px;
+  }
+  .adiv{
+    margin-top: 10px;
+
   }
 
   @media only screen and (max-width: 934px) {
