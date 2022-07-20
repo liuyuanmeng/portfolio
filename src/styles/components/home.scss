@@ -94,6 +94,26 @@ $animation-time: 4s;
  
 }
 @media only screen and (max-width: 934px) {
+  .typing {
+    position: relative;
+    &::after {
+      content: "|";
+      position: absolute;
+      right: 0;
+      width: 100%;
+      color: $caret-color;
+      background: $bg;
+      animation: typing $animation-time steps($text-length) forwards,
+        caret 1s infinite;
+    }
+  }
+  // Animation
+  @keyframes typing {
+    to { width: 0 }
+  }
+  @keyframes caret {
+    50% { color: transparent }
+  }
   .about{
     max-width: 100%;
   }
