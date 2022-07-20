@@ -51,11 +51,7 @@ $animation-time: 4s;
   
  
 }
-.box{
-  display: flex;
-  justify-content: center;
 
-}
 
 
 
@@ -83,17 +79,45 @@ $animation-time: 4s;
  
    
 }
-.second p{
-  padding-left: 150px;
-}
 
-// .projects{
-//   height: 100vh;
-//   padding-top: 30px;
-//   background-color: #c8d8e4;
+.second h1{
+  float: right;
+  margin-top: 10%;
+  margin-right: 20%;
+  font-size: 4em;
+}
+.second p{
+  clear: right;
+  margin: 10em;
+  max-width: 100%;
   
  
-// }
+}
+@media only screen and (max-width: 934px) {
+  .about{
+    max-width: 100%;
+  }
+
+  .second h1
+  {margin-top: -150px;
+    
+    
+   
+    font-size: 2em;
+  }
+  .card-text{
+    font-size: 0.8em;
+    margin: auto;
+   font-weight: bold;
+   justify-content: flex-start;
+   
+    }
+
+
+}
+
+
+
 .skills{
   padding-top: 30px;
   height: 100vh;
@@ -122,24 +146,10 @@ $animation-time: 4s;
 }
 
 
-.second h1{
-  float: right;
-  margin-top: 10%;
-  margin-right: 20%;
-  font-size: 4em;
-}
-.second p{
-  clear: right;
-  margin: 10em;
-}
 
 
-.container {
-  position: relative;
-  
-   max-width: 100%;
- 
-}
+
+
 
 
 
@@ -538,6 +548,16 @@ button {
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

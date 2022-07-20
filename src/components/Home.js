@@ -43,6 +43,7 @@ import { Rotate, LightSpeed } from 'react-reveal'
 import Jump from 'react-reveal'
 import { Container } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
 
 // import ReactTooltip from 'react-tooltip'
 import Tippy from '@tippy.js/react'
@@ -66,23 +67,32 @@ const Home = () => {
   return (
     <>
 
-      <section className='text-center second' id='aboutme'>
+      <section className='text-center second about' id='aboutme'>
         <Rotate top left>
-          <img src={profile} alt='profile picture' className='profile' />
+          <img src={profile} alt='profile picture' className='profile card-img-left' />
         </Rotate>
-        <LightSpeed right>
-          {/* <h1 className='text-center mt-6 '>About Me</h1> */}
-          <h1 className="typing">Yuanmeng Liu</h1>
-        </LightSpeed>
-        <Jump bottom>
+        <div className="card-body">
+          <LightSpeed right>
 
-          <p className='text-center mt-3 mr-5 text-md-left '> Hi! 你好, I&apos;m a Full-stack Wed Developer and a recent software engineering graduate from General Assembly (June 2022).<br></br>
-            I’m a nice, fun and friendly person, I’m honest and punctual, I work well in a team but also on my own and I have good listening and communication skills.<br></br>
-
-            Now that I have completed the course, I’d like to find a place where I can work in a trusting, goal-oriented, and supportive environment.<br></br> Current Stack: HTML, CSS, JavaScript, React.js, Express.js, Python, Django. </p>
+            <h1 className="typing card-title">Yuanmeng Liu</h1>
+          </LightSpeed>
 
 
-        </Jump>
+
+          <Jump bottom>
+
+
+
+            <p className='text-center mt-3 mr-5 text-md-left card-text'> Hi! 你好, I&apos;m a Full-stack Wed Developer and a recent software engineering graduate from General Assembly (June 2022).<br></br>
+              I’m a nice, fun and friendly person, I’m honest and punctual, I work well in a team but also on my own and I have good listening and communication skills.<br></br>
+
+              Now that I have completed the course, I’d like to find a place where I can work in a trusting, goal-oriented, and supportive environment.<br></br> Current Stack: HTML, CSS, JavaScript, React.js, Express.js, Python, Django. </p>
+
+
+          </Jump>
+        </div>
+
+
 
 
       </section>
@@ -364,8 +374,8 @@ const Home = () => {
       <section id='experience' className='experience'>
         <h1 className='text-center under'>Experience</h1>
 
-        <div className="experience-container">
-          <div className="bloc-tabs">
+        <div className="experience-container ">
+          <div className="bloc-tabs ">
             <button
               className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'}
               onClick={() => toggleTab(1)}
@@ -388,7 +398,7 @@ const Home = () => {
 
           <div className="content-tabs">
             <div
-              className={toggleState === 1 ? 'content  active-content' : 'content'}
+              className={toggleState === 1 ? 'content  active-content' : 'content '}
             >
               <h2>March 2022 -  June 202 – Software Engineering Immersive</h2>
               <hr />
