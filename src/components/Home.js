@@ -213,7 +213,7 @@ const Home = () => {
               all different kinds of fruits by either name or family. Users can also calculate nutrition after choosing three of their favourite fruits.
             </p>
             <div className='mt-5'>
-              <a href="https://fruity-4-you.netlify.app/" target="_blank" rel="noreferrer">
+              <a href="https://fruity4you.netlify.app/" target="_blank" rel="noreferrer">
                 <FaExternalLinkSquareAlt />
               </a>
               <a href="https://github.com/liuyuanmeng/Project2-FruitsHackathon" target="_blank" rel="noreferrer">
@@ -455,9 +455,20 @@ const Home = () => {
 
 
         </p>
-        <img src={hotyoga} alt="hotyoga" />
-        <img src={community} alt="community" />
-        <img src={cooking} alt="cooking" />
+        <div id='interests-container'>
+          <div className='icon-contaier one'>
+            <img src={hotyoga} alt="hotyoga" />
+
+          </div>
+          <div className='icon-contaier one'>
+            <img src={community} alt="community" />
+          </div>
+
+          <div className='icon-contaier one'>
+            <img src={cooking} alt="cooking" />
+          </div>
+
+        </div>
       </section>
 
 
