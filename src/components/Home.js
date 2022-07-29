@@ -455,20 +455,19 @@ const Home = () => {
 
 
         </p>
-        <div id='interests-container'>
-          <div className='icon-contaier one'>
-            <img src={hotyoga} alt="hotyoga" />
+        <div className="interests-container">
+          <img src={hotyoga} alt="hotyoga" />
+          <img src={community} alt="community" />
 
-          </div>
-          <div className='icon-contaier one'>
-            <img src={community} alt="community" />
-          </div>
 
-          <div className='icon-contaier one'>
-            <img src={cooking} alt="cooking" />
-          </div>
+          <img src={cooking} alt="cooking" />
+
+
+
 
         </div>
+
+
       </section>
 
 

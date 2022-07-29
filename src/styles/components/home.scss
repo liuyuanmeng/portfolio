@@ -555,6 +555,17 @@ button {
     
     
   }
+  .interests-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+
+ 
+ 
+
 }
 
 @media only screen and (max-width: 1094px) {
